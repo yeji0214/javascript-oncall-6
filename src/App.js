@@ -1,5 +1,9 @@
+import { assign } from "./EmergencyWork.js";
+
 class App {
-  async run() {}
+  async run() {
+    await assign();
+  }
 }
 
 export default App;
